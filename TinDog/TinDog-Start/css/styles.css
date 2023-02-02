@@ -1,0 +1,150 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    position: relative;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size:3rem;
+    line-height: 2;
+    color:white;
+  
+}
+
+.container-fluid{
+    padding:3% 15%;
+    padding-bottom:70px ;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+}
+.download-button{
+    margin:5% 3% 5%  0;
+}
+.title-image{
+    width:20%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 30%;
+   
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position:relative;
+   
+
+}
+.col-lg-4{
+   
+    text-align: center;
+}
+.col-lg-4 h3{
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color:#ef8172;
+
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+   
+}
+h2{
+    color:#fff;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    size:3rem;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width:100px;
+    margin: 20px;
+    margin-bottom: 0px;;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.press-image{
+    width:200px;
+    margin:0px 20px 100px 20px;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+#pricing{
+    padding:5% 15%;
+    text-align: center;
+}
+.pricing-header{
+    margin:50px auto;
+    margin-bottom: 0px;;
+}
+.c-button{
+    padding:auto 50px;
+}
+.pricing-header h3{
+    font-family: 'Montserrat', sans-serif;
+    size:3rem;
+    line-height: 2;
+}
+.pricing-col{
+    padding:3% 2%;
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0deg);
+        position: static;
+    }
+}
+/* cta session */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding:7% 15%;
+}
+.cta-title{
+    font-family: 'Montserrat', sans-serif;
+    size:3rem;
+    line-height: 2;
+    color:white;
+}
+.cta-btn{
+    margin: 20px;;
+}
+#footer{
+    text-align: center;
+    padding: 3% 15%;
+    background-color: #fff;
+}
+.x{
+    margin: 2px;
+}
